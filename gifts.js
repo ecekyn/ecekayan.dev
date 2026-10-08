@@ -3,12 +3,12 @@
 // url:   optional link to where to buy it
 // when:  any of "christmas", "birthday", "random"
 const GIFTS = [
+  { title: "A plant", note: "Anything from the hoya, monstera or pothos family. Or a snake plant or ZZ plant. Anything happy in low light.", tier: "small", when: ["birthday", "random"] },
   { title: "Winsor & Newton oil paint", note: "Ultramarine Blue, Cadmium Red Medium, Cadmium Yellow Medium, Titanium White, Burnt Umber or Yellow Ochre. Titanium white runs out first. It always runs out first.", tier: "small", when: ["christmas", "birthday", "random"] },
+  { title: "Cole & Mason salt pig", note: "The ceramic one with a lid.", url: "https://www.amazon.co.uk/dp/B09RN9XT4L", tier: "small", when: ["christmas", "birthday", "random"] },
+  { title: "A book you loved", note: "Fiction, mostly. No self-help or personal development, please.", tier: "small", when: ["christmas", "birthday"] },
   { title: "Stretched canvases", note: "Any size, though bigger is better.", tier: "small", when: ["christmas", "birthday"] },
   { title: "Nice brushes", note: "Good quality ones that don't shed.", tier: "small", when: ["christmas", "birthday", "random"] },
-  { title: "A book you loved", note: "Write something on the first page so I know it's from you.", tier: "small", when: ["christmas", "birthday"] },
-  { title: "A plant", note: "Anything from the hoya, monstera or pothos family. Or a snake plant or ZZ plant. Anything happy in low light.", tier: "small", when: ["birthday", "random"] },
-  { title: "Cole & Mason salt pig", note: "The ceramic one with a lid.", url: "https://www.amazon.co.uk/dp/B09RN9XT4L", tier: "small", when: ["christmas", "birthday", "random"] },
   { title: "Dinner somewhere nice", note: "Somewhere you like.", tier: "big", when: ["birthday"] },
   { title: "Plane tickets", note: "Anywhere. I'm not fussy. (I'm a little fussy.)", tier: "big", when: ["christmas", "birthday"] },
   { title: "An actual art class", note: "I've never had one.", tier: "big", when: ["christmas", "birthday"] },
