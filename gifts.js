@@ -12,6 +12,8 @@ const GIFTS = [
   { title: "Dinner somewhere nice", note: "You pick, I'll pretend to look at the menu, then order the pasta.", tier: "big", when: ["birthday"] },
   { title: "Plane tickets", note: "Anywhere. I'm not fussy. (I'm a little fussy.)", tier: "big", when: ["christmas", "birthday"] },
   { title: "An actual art class", note: "So I can finally say I've had one.", tier: "big", when: ["christmas", "birthday"] },
+  { title: "Cello lessons (and a rented cello)", note: "I don't own a cello. Yet. Lessons are much less useful without one.", tier: "big", when: ["christmas", "birthday"] },
+  { title: "A cabin getaway in nature", note: "Trees, a fireplace, no wifi. Okay, a little wifi.", tier: "big", when: ["christmas", "birthday", "random"] },
   { title: "Buy one of my paintings", note: "Technically a gift to both of us. Mostly to me.", tier: "big", when: ["christmas", "birthday", "random"] },
 ];
 
