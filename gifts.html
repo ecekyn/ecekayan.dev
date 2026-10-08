@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>what to get ece</title>
+  <meta name="description" content="A helpful, unbiased, completely objective guide to buying Ece a present.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎁</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <a class="wordmark" href="/">ecekayan<span>.dev</span></a>
+    <nav>
+      <a href="/">who</a>
+      <a href="gifts.html" aria-current="page">gifts</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="gifts-head">
+      <p class="eyebrow">a public service</p>
+      <h1>What to get <em>ece</em>.</h1>
+      <p>For christmas, for birthdays, or for no reason at all (the best reason).
+        Pick something, or let the button decide. No pressure. (Some pressure.)</p>
+    </section>
+
+    <div class="controls">
+      <div class="occasions" role="group" aria-label="Occasion">
+        <button class="chip" data-when="all" aria-pressed="true">everything</button>
+        <button class="chip" data-when="christmas" aria-pressed="false">🎄 christmas</button>
+        <button class="chip" data-when="birthday" aria-pressed="false">🎂 birthday</button>
+        <button class="chip" data-when="random" aria-pressed="false">🎲 random tuesday</button>
+      </div>
+      <button class="pick" id="pick">just pick one for me</button>
+    </div>
+
+    <div id="shelf"></div>
+
+    <section class="nope">
+      <h2>Please do not get me</h2>
+      <ul>
+        <li>Another mug. I have achieved peak mug.</li>
+        <li>A gift card for a shop I&rsquo;ve never heard of.</li>
+        <li>Anything that needs an app, an account, and a firmware update.</li>
+        <li><s>Nothing</s>, actually nothing is fine too. A hug works.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <span>&copy; <span id="year"></span> ece kayan</span>
+    <span>receipts accepted. returns are not.</span>
+  </footer>
+
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+  <script src="gifts.js"></script>
+</body>
+</html>
