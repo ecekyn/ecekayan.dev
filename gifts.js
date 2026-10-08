@@ -3,7 +3,7 @@
 // url:   optional link to where to buy it
 // when:  any of "christmas", "birthday", "random"
 const GIFTS = [
-  { title: "Oil paint, any colour", note: "Titanium white runs out first. It always runs out first.", tier: "small", when: ["christmas", "birthday", "random"] },
+  { title: "Winsor & Newton oil paint", note: "Ultramarine Blue, Cadmium Red Medium, Cadmium Yellow Medium, Titanium White, Burnt Umber or Yellow Ochre. Titanium white runs out first. It always runs out first.", tier: "small", when: ["christmas", "birthday", "random"] },
   { title: "Stretched canvases", note: "Any size, though bigger is better.", tier: "small", when: ["christmas", "birthday"] },
   { title: "Nice brushes", note: "Good quality ones that don't shed.", tier: "small", when: ["christmas", "birthday", "random"] },
   { title: "A book you loved", note: "Write something on the first page so I know it's from you.", tier: "small", when: ["christmas", "birthday"] },
