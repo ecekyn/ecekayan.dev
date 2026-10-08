@@ -12,7 +12,7 @@ const GIFTS = [
   { title: "Dinner somewhere nice", note: "Somewhere you like.", tier: "big", when: ["birthday"] },
   { title: "Plane tickets", note: "Anywhere. I'm not fussy. (I'm a little fussy.)", tier: "big", when: ["christmas", "birthday"] },
   { title: "An actual art class", note: "I've never had one.", tier: "big", when: ["christmas", "birthday"] },
-  { title: "Cello lessons (and a rented cello)", note: "Plus a rented cello, since I don't have one.", tier: "big", when: ["christmas", "birthday"] },
+  { title: "Cello lessons", note: "Plus a rented cello, since I don't have one.", tier: "big", when: ["christmas", "birthday"] },
   { title: "A cabin getaway in nature", note: "Somewhere quiet, with trees and a fireplace.", tier: "big", when: ["christmas", "birthday", "random"] },
   { title: "Buy one of my paintings", note: "Technically a gift to both of us. Mostly to me.", tier: "big", when: ["christmas", "birthday", "random"] },
 ];
