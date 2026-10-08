@@ -1,5 +1,6 @@
 // The list. Edit freely.
 // tier:  "small" | "big"
+// url:   optional link to where to buy it
 // when:  any of "christmas", "birthday", "random"
 const GIFTS = [
   { title: "Oil paint, any colour", note: "Titanium white runs out first. It always runs out first.", tier: "small", when: ["christmas", "birthday", "random"] },
@@ -7,7 +8,8 @@ const GIFTS = [
   { title: "Nice brushes", note: "The ones that don't shed hairs into the sky I just painted.", tier: "small", when: ["christmas", "birthday", "random"] },
   { title: "Good chocolate", note: "Dark. Not the kind from the petrol station.", tier: "small", when: ["christmas", "birthday", "random"] },
   { title: "A book you loved", note: "Write something on the first page so I know it's from you.", tier: "small", when: ["christmas", "birthday"] },
-  { title: "A plant", note: "Low maintenance. I can keep a cron job alive, plants are another story.", tier: "small", when: ["birthday", "random"] },
+  { title: "A low-light plant", note: "Anything from the hoya, monstera or pothos family. Or a snake plant, or a ZZ plant. My flat is not a greenhouse.", tier: "small", when: ["birthday", "random"] },
+  { title: "Cole & Mason salt pig", note: "Ceramic, with a lid. Salt deserves a home too.", url: "https://www.amazon.co.uk/dp/B09RN9XT4L", tier: "small", when: ["christmas", "birthday", "random"] },
   { title: "Fun socks", note: "Look, they're always a good gift. Don't fight it.", tier: "small", when: ["christmas"] },
   { title: "A cake with my name on it", note: "Spelled correctly. E-C-E. There is no second E in the middle.", tier: "small", when: ["birthday"] },
   { title: "Dinner somewhere nice", note: "You pick, I'll pretend to look at the menu, then order the pasta.", tier: "big", when: ["birthday"] },
@@ -42,7 +44,8 @@ function render() {
     for (const g of items) {
       const li = document.createElement("li");
       li.className = "gift";
-      li.innerHTML = `<h3>${g.title}</h3><p>${g.note}</p>`;
+      const title = g.url ? `<a href="${g.url}" rel="noopener" target="_blank">${g.title} ↗</a>` : g.title;
+      li.innerHTML = `<h3>${title}</h3><p>${g.note}</p>`;
       ul.appendChild(li);
     }
     shelf.appendChild(section);
